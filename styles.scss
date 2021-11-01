@@ -1,0 +1,47 @@
+$primary: #3498db;
+$success: #1abc9c;
+$danger: #e74c3c;
+$warning: #flc40f;
+
+
+$color: aqua;
+div > div {
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: $color;
+}
+
+.btn {
+  color: white;
+  border-radius: 3rem;
+  font-size: 150%;
+  margin: 5px;
+}
+
+
+@for $i from 20 through 100 {
+  @if $i % 10 == 0 {
+    $percentage: $i*1%;
+
+    .mix-primary1-#{$i} {
+      background-color: mix(black,$primary, $percentage);
+    }
+    .mix-primary2-#{$i} {
+      background-color: mix(white,$primary, $percentage);
+    }
+    .mix-success1-#{$i} {
+      background-color: mix(black,$success, $percentage);
+    }
+    .mix-success2-#{$i} {
+      background-color: mix(white,$success, $percentage);
+    }
+    .mix-danger1-#{$i} {
+      background-color: mix(black,$danger, $percentage);
+    }
+    .mix-danger2-#{$i} {
+      background-color: mix(white,$danger, $percentage);
+    }
+  }
+}
