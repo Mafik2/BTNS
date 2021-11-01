@@ -3,206 +3,226 @@ div > div {
   width: 100px;
   height: 100px;
   display: inline-block;
-  background-color: aqua;
 }
 
 .btn {
   color: white;
-  border-radius: 3rem;
+  border-radius: 8px;
   font-size: 150%;
   margin: 5px;
+  padding: 20px;
+  border: none;
+}
+
+.btn2 {
+  color: white;
+  border-radius: 35px;
+  font-size: 150%;
+  margin: 5px;
+  padding: 20px;
+  border: none;
+}
+
+.btn3 {
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 150%;
+  margin: 5px;
+  padding: 20px;
+  border: 3px solid black;
 }
 
 .mix-primary1-20 {
-  background-color: #2a7aaf;
+  background-color: #196090;
 }
 
 .mix-primary2-20 {
-  background-color: #5dade2;
+  background-color: #8bc4ea;
 }
 
 .mix-success1-20 {
-  background-color: #15967d;
+  background-color: #0e6252;
 }
 
 .mix-success2-20 {
-  background-color: #48c9b0;
+  background-color: #55e7ca;
 }
 
 .mix-danger1-20 {
-  background-color: #b93d30;
+  background-color: #a82315;
 }
 
 .mix-danger2-20 {
-  background-color: #ec7063;
+  background-color: #f29f97;
 }
 
 .mix-primary1-30 {
-  background-color: #246a99;
+  background-color: #124364;
 }
 
 .mix-primary2-30 {
-  background-color: #71b7e6;
+  background-color: #b6daf2;
 }
 
 .mix-success1-30 {
-  background-color: #12846d;
+  background-color: #07362c;
 }
 
 .mix-success2-30 {
-  background-color: #5fd0ba;
+  background-color: #81eed8;
 }
 
 .mix-danger1-30 {
-  background-color: #a2352a;
+  background-color: #7b190f;
 }
 
 .mix-danger2-30 {
-  background-color: #ee8277;
+  background-color: #f8c9c4;
 }
 
 .mix-primary1-40 {
-  background-color: #1f5b83;
+  background-color: #0a2639;
 }
 
 .mix-primary2-40 {
-  background-color: #85c1e9;
+  background-color: #e1f0fa;
 }
 
 .mix-success1-40 {
-  background-color: #10715e;
+  background-color: #010907;
 }
 
 .mix-success2-40 {
-  background-color: #76d7c4;
+  background-color: #aef4e6;
 }
 
 .mix-danger1-40 {
-  background-color: #8b2e24;
+  background-color: #4d100a;
 }
 
 .mix-danger2-40 {
-  background-color: #f1948a;
+  background-color: #fdf3f2;
 }
 
 .mix-primary1-50 {
-  background-color: #1a4c6e;
+  background-color: #02090e;
 }
 
 .mix-primary2-50 {
-  background-color: #9acced;
+  background-color: white;
 }
 
 .mix-success1-50 {
-  background-color: #0d5e4e;
+  background-color: black;
 }
 
 .mix-success2-50 {
-  background-color: #8ddece;
+  background-color: #dbfaf4;
 }
 
 .mix-danger1-50 {
-  background-color: #74261e;
+  background-color: #200704;
 }
 
 .mix-danger2-50 {
-  background-color: #f3a69e;
+  background-color: white;
 }
 
 .mix-primary1-60 {
-  background-color: #153d58;
+  background-color: black;
 }
 
 .mix-primary2-60 {
-  background-color: #aed6f1;
+  background-color: white;
 }
 
 .mix-success1-60 {
-  background-color: #0a4b3e;
+  background-color: black;
 }
 
 .mix-success2-60 {
-  background-color: #a3e4d7;
+  background-color: white;
 }
 
 .mix-danger1-60 {
-  background-color: #5c1e18;
+  background-color: black;
 }
 
 .mix-danger2-60 {
-  background-color: #f5b7b1;
+  background-color: white;
 }
 
 .mix-primary1-70 {
-  background-color: #102e42;
+  background-color: black;
 }
 
 .mix-primary2-70 {
-  background-color: #c2e0f4;
+  background-color: white;
 }
 
 .mix-success1-70 {
-  background-color: #08382f;
+  background-color: black;
 }
 
 .mix-success2-70 {
-  background-color: #baebe1;
+  background-color: white;
 }
 
 .mix-danger1-70 {
-  background-color: #451712;
+  background-color: black;
 }
 
 .mix-danger2-70 {
-  background-color: #f8c9c5;
+  background-color: white;
 }
 
 .mix-primary1-80 {
-  background-color: #0a1e2c;
+  background-color: black;
 }
 
 .mix-primary2-80 {
-  background-color: #d6eaf8;
+  background-color: white;
 }
 
 .mix-success1-80 {
-  background-color: #05261f;
+  background-color: black;
 }
 
 .mix-success2-80 {
-  background-color: #d1f2eb;
+  background-color: white;
 }
 
 .mix-danger1-80 {
-  background-color: #2e0f0c;
+  background-color: black;
 }
 
 .mix-danger2-80 {
-  background-color: #fadbd8;
+  background-color: white;
 }
 
 .mix-primary1-90 {
-  background-color: #050f16;
+  background-color: black;
 }
 
 .mix-primary2-90 {
-  background-color: #ebf5fb;
+  background-color: white;
 }
 
 .mix-success1-90 {
-  background-color: #031310;
+  background-color: black;
 }
 
 .mix-success2-90 {
-  background-color: #e8f8f5;
+  background-color: white;
 }
 
 .mix-danger1-90 {
-  background-color: #170806;
+  background-color: black;
 }
 
 .mix-danger2-90 {
-  background-color: #fdedec;
+  background-color: white;
 }
 
 .mix-primary1-100 {

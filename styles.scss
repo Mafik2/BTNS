@@ -1,23 +1,44 @@
+
+
 $primary: #3498db;
 $success: #1abc9c;
 $danger: #e74c3c;
 $warning: #flc40f;
 
-
-$color: aqua;
 div > div {
   border: 1px solid grey;
   width: 100px;
   height: 100px;
   display: inline-block;
-  background-color: $color;
 }
 
 .btn {
   color: white;
-  border-radius: 3rem;
+  border-radius: 8px;
   font-size: 150%;
   margin: 5px;
+  padding: 20px;
+  border: none;
+}
+
+.btn2 {
+  color: white;
+  border-radius: 35px;
+  font-size: 150%;
+  margin: 5px;
+  padding: 20px;
+  border: none;
+}
+
+.btn3 {
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 150%;
+  margin: 5px;
+  padding: 20px;
+  border: 3px solid black;
+
 }
 
 
@@ -26,22 +47,22 @@ div > div {
     $percentage: $i*1%;
 
     .mix-primary1-#{$i} {
-      background-color: mix(black,$primary, $percentage);
+      background-color: darken($primary, $percentage);
     }
     .mix-primary2-#{$i} {
-      background-color: mix(white,$primary, $percentage);
+      background-color: lighten($primary, $percentage);
     }
     .mix-success1-#{$i} {
-      background-color: mix(black,$success, $percentage);
+      background-color: darken($success, $percentage);
     }
     .mix-success2-#{$i} {
-      background-color: mix(white,$success, $percentage);
+      background-color: lighten($success, $percentage);
     }
     .mix-danger1-#{$i} {
-      background-color: mix(black,$danger, $percentage);
+      background-color: darken($danger, $percentage);
     }
     .mix-danger2-#{$i} {
-      background-color: mix(white,$danger, $percentage);
+      background-color: lighten($danger, $percentage);
     }
   }
 }
